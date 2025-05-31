@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Desabafe Aqui</title>
+  </head>   
+  <body>
+    <center>
+      <h2 class="tt">Abraço Amigo</h2>
+      <img
+        src="https://i.pinimg.com/originals/1b/8c/54/1b8c542663fa9cd1760014426ab8e724.gif"
+        alt="Imagem MasterChef"
+        width="300"
+        height="170"
+      />
+    </center>
+
+    <form>
+      <center>
+        <label for="nome">Nome completo: </label>
+        <input
+          id="nome"
+          type="text"
+          placeholder="Digite seu nome"
+          required
+        />
+        <br /><br />
+
+        <label for="idade">Idade: </label>
+        <input
+          id="idade"
+          type="number"
+          placeholder="Informe sua idade"
+          required
+        />
+        <br /><br />
+
+        <label for="email">E-mail: </label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Digite seu e-mail"
+          required
+        />
+        <br /><br />
+
+        <label for="nascimento">Data de Nascimento: </label>
+        <input
+          id="nascimento"
+          type="date"
+          required
+        />
+        <br /><br />
+        <label for="hora">Horário preferido para contato: </label>
+        <input
+          id="hora"
+          type="time"
+          required
+        />
+        <br /><br />
+        <h3>Qual sua principal frustração: </h3>
+        <input id="Futuro Pessoal" type="checkbox" />
+        <label for="Futuro Pessoal">Frustrado com seu futuro</label>
+        <input id="Familia" type="checkbox" />
+        <label for="Familia">Frustração com sua Familia</label>
+        <input id="Outros" type="checkbox" />
+        <label for="Outros">São outras frustrações...</label>
+        <br /><br />
+        <label for="experiencias">Experiências antigas te afetam?</label>
+        <select id="experiencias" required>
+          <option value="">Sim</option>
+          <option value="sp">Não</option>
+        </select>
+        <br /><br />
+        <label for="desabafe">
+          Por que você quer desabafar? <strong>Explique.</strong>
+        </label>
+        <br />
+        <textarea
+          id="desabafe"
+          rows="4"
+          cols="40"
+          placeholder="Conte um pouco sobre suas frustraçõe, e diga tudo que tem vontade de falar."
+          required
+        ></textarea>
+        <br /><br />
+        <input type="submit" value="Enviar texto" />
+      </center>
+    </form>
+  </body>
+</html>
